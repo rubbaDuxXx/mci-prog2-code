@@ -9,16 +9,16 @@
   margin-left: 0px;
 }
 
-.rouge-table tr {
+.markdown-body table.rouge-table tr {
   background-color: inherit;
   border-top: none;
 }
 
-.rouge-table td {
+.markdown-body table.rouge-table td {
   padding: 0px;
   border: none;
 }
 
-.rouge-table td.rouge-gutter {
+.markdown-body table.rouge-table td.rouge-gutter {
   border-right: 1px solid #dfe2e5;
 }
