@@ -13,15 +13,6 @@ int main() {
     return 0;
 }
 ```
-
-```text
-Hello World!
 ```
-
-```
-Hello World!
-```
-
-```output
 Hello World!
 ```
