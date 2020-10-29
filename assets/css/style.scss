@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
-h1 {
-  color: red;
+.container-lg {
+  max-width: none;
+  margin-right: 0px;
+  margin-left: 0px;
 }
