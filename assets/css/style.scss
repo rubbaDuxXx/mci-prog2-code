@@ -36,6 +36,7 @@
   color: #acacac;
 }
 
-.markdown-body div.language-plaintext table.rouge-table td.rouge-gutter {
+/* No line numbers visible in plaintext */
+.markdown-body div.language-plaintext table.rouge-table td.rouge-gutter pre {
   visibility: hidden;
 }
