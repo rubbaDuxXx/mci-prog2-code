@@ -40,3 +40,9 @@
 .markdown-body div.language-plaintext table.rouge-table td.rouge-gutter pre {
   visibility: hidden;
 }
+
+.markdown-body div.language-plaintext table.rouge-table td.rouge-gutter pre:after {
+  content:'>>'; 
+  visibility: visible;
+  display: block;
+}
