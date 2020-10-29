@@ -8,3 +8,22 @@
   margin-right: 0px;
   margin-left: 0px;
 }
+
+.markdown-body table.rouge-table {
+   margin: 0;
+}
+
+.markdown-body table.rouge-table tr {
+  background-color: inherit;
+  border-top: none;
+}
+
+.markdown-body table.rouge-table td {
+  padding: 0px;
+  border: none;
+}
+
+.markdown-body table.rouge-table td.rouge-gutter {
+  border-right: 1px solid #acacac;
+  color: #acacac;
+}
