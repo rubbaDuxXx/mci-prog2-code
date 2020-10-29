@@ -5,7 +5,7 @@ Hello!
 
 [link to pages](https://rubbaduxxx.github.io/mci-prog2-code/)
 
-```C
+```c
 #include <stdio.h>
 
 int main() {
