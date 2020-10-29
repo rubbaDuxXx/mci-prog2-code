@@ -21,3 +21,7 @@ Hello World!
 ```
 Hello World!
 ```
+
+```output
+Hello World!
+```
