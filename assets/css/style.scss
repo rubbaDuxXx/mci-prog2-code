@@ -16,7 +16,14 @@
 /*    HEADER ICONS     */
 /***********************/
 h1.reading:before {
-    content: url('https://sakai.mci4me.at/library/editor/ckextraplugins/extraicons/images/blue/readings.png');
+    /*content: url('https://sakai.mci4me.at/library/editor/ckextraplugins/extraicons/images/blue/readings.png');*/
+  content: "";
+    display: block;
+    background: url('https://sakai.mci4me.at/library/editor/ckextraplugins/extraicons/images/blue/readings.png') no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
 }
 
 /***********************/
