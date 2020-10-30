@@ -13,14 +13,16 @@
   pre.highlight {
      padding: 16px;
   }
-
-  div.language-plaintext pre.highlight {
-     padding: 4px 16px;
-  }
   
-    /* No line numbers visible in plaintext */
-  div.language-plaintext table.rouge-table td.rouge-gutter pre {
-    visibility: hidden;
+  /* No line numbers visible in plaintext */
+  div.language-plaintext {
+    table.rouge-table td pre {
+      margin: 0;
+    }
+
+    table.rouge-table td.rouge-gutter pre {
+      visibility: hidden;
+    }
   }
 
   table.rouge-table {
