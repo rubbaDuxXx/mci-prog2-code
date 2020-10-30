@@ -3,12 +3,25 @@
 
 @import "{{ site.theme }}";
 
+/***********************/
+/*         BODY        */
+/***********************/
 .container-lg {
   max-width: none;
   margin-right: 0px;
   margin-left: 0px;
 }
 
+/***********************/
+/*    HEADER ICONS     */
+/***********************/
+h1.reading:before {
+    content: url('https://sakai.mci4me.at/library/editor/ckextraplugins/extraicons/images/blue/readings.png');
+}
+
+/***********************/
+/* SYNTAX HIGHLIGHTING */
+/***********************/
 .markdown-body {
   pre.highlight {
      padding: 16px;
