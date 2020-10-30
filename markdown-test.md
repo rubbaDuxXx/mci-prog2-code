@@ -16,3 +16,8 @@ int main() {
 ```
 Hello World!
 ```
+
+# Header w/ icon
+{: .reading}
+
+Lorem ipsum dolor si amet ...
