@@ -26,7 +26,7 @@ int main()
   printf("%f\n", c);
 }
 ```
-```
+```plaintext
 0.0
 ```
 

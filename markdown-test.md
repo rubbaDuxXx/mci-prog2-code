@@ -13,7 +13,7 @@ int main() {
     return 0;
 }
 ```
-```
+```plaintext
 Hello World!
 ```
 

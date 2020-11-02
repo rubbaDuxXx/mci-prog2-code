@@ -34,14 +34,21 @@ h1.reading:before {
      padding: 16px;
   }
   
-  /* No line numbers visible in plaintext */
+  /* No line numbers visible in plaintext style */
   div.language-plaintext {
     table.rouge-table td pre {
       padding: 0px 16px;
     }
 
     table.rouge-table td.rouge-gutter pre {
+      padding: 0;
       visibility: hidden;
+    }
+
+    table.rouge-table td.rouge-gutter pre.lineno:before {
+      content: ">>";
+      visibility: visible;
+      padding: 0 9px;
     }
   }
 
