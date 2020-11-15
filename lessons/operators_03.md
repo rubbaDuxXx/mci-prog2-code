@@ -42,7 +42,7 @@ Die Operatorpräzendenz gibt an in **welcher Reichenfolge** Operatoren ausgewert
 Wie auch in der Mathematik kann die Auswertungsreihenfolge von Operatoren durch **Klammerung** explizit angegeben werden. Geklammerte Ausdrücke werden von Innen nach Außen ausgewertet.
 
 ````cpp
-3 * ((4 * (8 - 6)) / (4 + 2)))
+3 * ((4 * (8 - 6)) / (4 + 2))
 ````
 
 > Bei Unsicherheiten: **Besser zu viele als zu wenige Klammern**
