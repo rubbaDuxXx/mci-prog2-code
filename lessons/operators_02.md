@@ -61,9 +61,9 @@ In den meisten Fällen kann man ``=`` statt ``==`` schreiben und man wird **kein
 
 # Logische Operatoren
 
-Wie in der Aussagenlogik der Mathematik lassen sich auch in C mehrere Ausdrücke mittels logischer Operatoren zu einem Gesamt-Ausdruck kombinieren. Wir müssen einzelne Vergleichsoperatoren verknüpfen um zB zu entscheiden ob ``a > 2`` **und** ``a < 5`` ist (also ob ``a`` die Werte 2, 3, 4 oder 5 enthält)`.
+Wie in der Aussagenlogik der Mathematik lassen sich auch in C mehrere Ausdrücke mittels logischer Operatoren zu einem Gesamt-Ausdruck kombinieren. Wir müssen einzelne Vergleichsoperatoren verknüpfen um zB zu entscheiden ob ``a > 2`` **und** ``a < 5`` ist (also ob ``a`` die Werte 2, 3, 4 oder 5 enthält).
 
-Wir benoetigen also einen Weg um Beziehungen wie **und** und **oder** abzubilden. Zusätzlich soll ein Wahrheitswert oder ein Ausdruck **negiert** werden können. Die Operatoren dafür in C sind:
+Wir benötigen also einen Weg um Beziehungen wie **und** und **oder** abzubilden. Zusätzlich soll ein Wahrheitswert oder ein Ausdruck **negiert** werden können. Die Operatoren dafür in C sind:
 - ``&&`` . . . und
 - ``||`` . . . oder
 - &nbsp;``! `` . . . negation
