@@ -71,15 +71,18 @@ Wir benoetigen also einen Weg um Beziehungen wie **und** und **oder** abzubilden
 Das ``!`` als logisches **Nicht** bezieht sich auf den unmittelbar rechts stehenden Ausdruck und kehrt dabei den Wahrheitswert des Ausdrucks um. Die anderen beiden Operatoren ``&&`` und ``||`` verknüpfen den unmittelbar links und den unmittelbar rechts stehenden Ausdruck zu einer Gesamt-Aussage. Eine **Und**-Verknüpfung ist genau dann wahr, wenn beide Teil-Ausdrücke wahr sind. Eine **Oder**-Verknüpfung ist wahr, wenn mindestens einer der beiden Ausdrücke wahr ist.
 
 ## Wahrheitstabelle **Und**
-| a  |  b | a && b 
-|----|----|:------:
-| 0 | 0 |    0   
-| 0 | 1 |    0   
-| 1 | 0 |    0   
-| 1 | 1 |    1   
+
+| a | b | a && b |
+|:---:|:---:|:------:|
+| 0 | 0 | 0      |
+| 0 | 1 | 0      |
+| 1 | 0 | 0      |
+| 1 | 1 | 1      |
+
 
 
 ## Wahrheitstabelle **Oder**
+
 | a | b |a \|\| b|
 |:-:|:-:|:----:|
 | 0 | 0 |   0  |
@@ -88,6 +91,7 @@ Das ``!`` als logisches **Nicht** bezieht sich auf den unmittelbar rechts stehen
 | 1 | 1 |   1  |
 
 ## Wahrheitstabelle **Negation**
+
 | a |!a |
 |:-:|:-:|
 | 0 | 1 |
