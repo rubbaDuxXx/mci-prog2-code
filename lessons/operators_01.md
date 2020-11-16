@@ -73,7 +73,7 @@ Alle arithmetischen Operatoren, außer dem Modulo-Operator, können sowohl auf G
 Der Divisionsoperator kann zu **unerwarteten Ergebnissen** führen.
 
 ### Division durch 0
-So liefert eine **Division durch 0** ein undefiniertes Ergebnis, normalerweise hat dies den Absturz des Programms zur Folge.
+Eine **Division durch 0** liefert ein undefiniertes Ergebnis wenn eine Integerdivision ausgeführt wird und normalerweise hat dies den Absturz des Programms zur Folge. Bei einer Fließkommadivision ist eine Division durch 0 generell eine gültige Rechnung und man bekommt entweder +inf/-inf wenn eine beliebige positive oder negative Zahl durch 0.0 dividiert wird bzw. nan (not a number) wenn man 0.0, oder inf durch 0.0 dividiert.
 
 ### Integerdivision
 Wenn beide Operanden Ganzzahlen sind (``char`` oder ``int``) dann wird eine **Integerdivision** durchgeführt. Bei einer Integerdivision werden **Kommastellen gar nicht erst berücksichtigt**. Im Endeffekt wird eine **Division mit Rest** durchgeführt wie man sie von der Schule her kennt und der Rest verworfen. Den Rest der Division bekommt man mit dem Modulo Operator ``%``.
