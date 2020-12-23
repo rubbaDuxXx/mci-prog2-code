@@ -3,5 +3,12 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"cSpell.allowCompoundWords": true,
+		"cSpell.language": "de",
+		"cSpell.languageSettings": [
+		
+		]
+	}
 }
