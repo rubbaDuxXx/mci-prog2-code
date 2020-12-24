@@ -1,7 +1,5 @@
-# Ein-/Ausgabe
-{: .reading}
-
 # Ein- Ausgabe am Bildschirm
+{: .reading}
 
 ## Ausgabe von Werten
 Wir kennen bereits den Befehl `printf` um Text auf dem Bildschirm auszugeben. Die generalisierte Form sieht so aus
